@@ -1,0 +1,58 @@
+body, html {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("5.jpg");
+  
+  min-height: 1100px;
+  max-width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#headin{
+  padding-left: 30%;
+  color: black;
+  font-size: 70px;
+}
+.row{
+  margin-left: 100px;
+}
+.cl1{
+  font-size: 20px;
+}
+/* Add styles to the form container */
+.col-lg-4{
+  position: relative;
+  padding-top: 10%;
+
+}
+.col-lg-4 img{
+  max-width: 450px;
+  max-height: 400px;
+    padding-right: 30px;
+}
+.txt {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  overflow: hidden;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  width: 80%;
+  padding-top: 50px;
+  padding: 20px;
+  text-align: center;
+}
